@@ -1,3 +1,7 @@
+torch
+torchvision
 line_profiler
 pyinstrument
 snakeviz
+gprof2dot
+pytest
