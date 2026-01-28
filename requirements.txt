@@ -5,3 +5,4 @@ pyinstrument
 snakeviz
 gprof2dot
 pytest
+biopython
