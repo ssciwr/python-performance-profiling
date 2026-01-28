@@ -26,6 +26,20 @@ It will read the input FASTQ file, fix the headers, and write the output to `out
 
 Profile the code in the same way as for [example 1](../example1/README.md).
 
+Also try using pyinstrument and py-spy, and compare them with cProfile.
+
+## memray
+
+To profile memory usage with memray, run:
+
+```memray run -o memray.bin python pipeline.py
+```
+You can then visualize the memory profiling results using memray's built-in viewer:
+
+```memray flamegraph memray.bin
+```
+
+
 ## Benchmarks
 
 Using [hyperfine](https://github.com/sharkdp/hyperfine) to benchmark the scripts,

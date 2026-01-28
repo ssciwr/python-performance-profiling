@@ -32,3 +32,10 @@ Then install the other dependencies:
 ```
 pip install -r requirements.txt
 ```
+
+## Examples
+
+- [Example 1](example1/README.md): Basic profiling with cProfile, line_profiler.
+- [Example 2](example2/README.md): Profiling memory use and performance of a FASTQ file processing script.
+- [Example 3](example3/README.md): Profiling a multiprocessing workload.
+- [Example 4](example4/README.md): Profiling pytorch GPU code.

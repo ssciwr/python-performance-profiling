@@ -54,14 +54,3 @@ Then run the script with the `LINE_PROFILE=1` env var set:
 ```
 LINE_PROFILE=1 python pipeline.py
 ```
-
-## memray
-
-To profile memory usage with memray, run:
-
-```memray run -o memray.bin python pipeline.py
-```
-You can then visualize the memory profiling results using memray's built-in viewer:
-
-```memray flamegraph memray.bin
-```
