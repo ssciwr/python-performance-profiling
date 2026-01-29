@@ -16,7 +16,7 @@ cd python-performance-profiling
 If using conda, create and activate a new environment:
 
 ```
-conda create -n python-profiling python=3.14 -y
+conda create -n python-profiling "python=3.13" -y
 conda activate python-profiling
 ```
 
