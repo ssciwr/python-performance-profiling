@@ -5,3 +5,4 @@ gprof2dot
 pytest
 biopython
 memray
+viztracer
