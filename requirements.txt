@@ -4,3 +4,4 @@ snakeviz
 gprof2dot
 pytest
 biopython
+memray
