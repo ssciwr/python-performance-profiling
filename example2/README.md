@@ -32,11 +32,13 @@ Also try using pyinstrument and py-spy, and compare them with cProfile.
 
 To profile memory usage with memray, run:
 
-```memray run -o memray.bin python pipeline.py
+```
+memray run -o memray.bin python pipeline.py
 ```
 You can then visualize the memory profiling results using memray's built-in viewer:
 
-```memray flamegraph memray.bin
+```
+memray flamegraph memray.bin
 ```
 
 
